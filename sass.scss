@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+$primary-color: #ffffff;
+$secondary-color: #000000;
+$hover-color: #007700;
+
+$font-family: 'Raleway', sans-serif;
+$font-size: 17px;
+$navbar-height: 5rem;
+
+$btn-background: red;
+$btn-hover-background: darkred;
+
+$mobile-breakpoint: 858px;
+$tablet-breakpoint: 952px;
+
+@import 'reset' ;
+
+body {
+  font-family: $font-family;
+  background-color: var(--primary-color);
+}
+
+@import 'nav' ;
+
+
+h1 {
+  color: #0066cc;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: black;
+}
+
+
+.section-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bolded {
+  font-weight: bold;
+}
+
+@import 'section1' ;
+
+@import 'section2' ;
+
+@import 'section3' ;
+
+@import 'section4' ;
+
+@import 'mediaqueries' ;
+

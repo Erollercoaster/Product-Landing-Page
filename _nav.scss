@@ -1,0 +1,85 @@
+// User story 13
+nav {
+  background: #000000;
+  height: $navbar-height;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+
+  ul {
+    float: right;
+    margin-right: 20px;
+
+    li {
+      display: inline-block;
+      line-height: $navbar-height;
+      margin: 0 5px;
+
+      a {
+        color: white;
+        font-size: $font-size;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+a.active, a:hover {
+  transition: .5s;
+}
+
+
+
+nav ul li:nth-child(4) a {
+  background-color: $btn-background;
+  border-radius: 1.25rem;
+  padding: 0.625rem 1.25rem;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+nav ul li:nth-child(4) a:hover {
+  background-color: $btn-hover-background;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: $navbar-height;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+#header-img {
+  height: 100%;
+}
+
+#check{
+  display: none;
+}
+
+#icon {
+  width: 30px;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #000000;
+}
+
+.dark-theme {
+  --primary-color: #000000;
+  --secondary-color: #ffffff;
+}

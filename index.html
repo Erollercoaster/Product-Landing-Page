@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>DualSense™ Wireless Controller</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+ <body>
+   <!-- User story 1 -->
+   <header class="section-container">
+      <!-- User story 3 -->
+    <nav id="nav-bar">
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+       <!-- User story 2 -->
+      <label class="logo"><a href="https://product-landing-page-erollfernandez.avionschool-batch32-fe.repl.co/"><img id="header-img" src="logo.jpg" alt="Playstation Logo"></label>
+      <ul>
+         <!-- User story 4 & 5 -->
+        <li><a class="nav-link"href="#section2">Video</a></li>
+        <li><a class="nav-link"href="#section-4">Subscribe</a></li>
+        <li><a class="nav-link"href="#section-3">Buy Now</a></li>
+      </ul>
+      <img src="moon.png" id="icon">
+    </nav>
+     </header>
+  <section class="section-container">
+    <div id="section-1">
+       <!-- User story 6 -->
+      <div class="video-wrapper">
+       <video playsinline autoplay muted loop poster="bg.jpg">
+    <source src="bg.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+      <div id="sub-section1">
+        <a href="#section-3"><img id="controller" src="controller.png" alt="ps5-controller-white"></a>
+        <p><span class="bolded">DualSense™ Wireless Controller</span> - ₱3,990.00</p>
+      </div>
+    </div>
+  </section>
+  <section class="section-container" id="section2">
+    <div id="section-2">
+        <div class="titlebox"><h1 class="bolded">Heighten Your Senses™</h1> 
+          <br>
+          <p class="bolded" id="desc">The DualSense wireless controller for PS5 offers immersive haptic feedback, dynamic adaptive triggers and a built-in microphone, all integrated into an iconic design.</p>
+        </div>
+        <div class="iframe-container">
+        <iframe width="560" height="315"   src="https://www.youtube.com/embed/KAvwl27SnvA?si=puXYZzdQGLILgrgc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>    </iframe>
+        </div>
+    </div>
+  </section>
+  <section class="section-container" id="section-container3">
+    <div id="section-3">
+    <div class="left-section">
+      <img id="buy" src="buy.png" alt="ps5-controller-white">
+    </div>
+    <div class="right-section">
+      <div class="product-name"><h2 class="bolded">DualSense™ Wireless Controller</h2>
+       <div class="price-section">
+      <p>Price: Php 3,990.00</p>
+    </div>
+    <div class="add-to-cart-section">
+      <button class="add-to-cart-button">Add to Cart</button>
+    </div>
+  </div>
+  </section>
+      
+  <section class="section-container" id="section-4">
+        <div class="textbox"> <h1 class="bolded">Subscribe</h1>
+          <br>
+          <p id="desc2">Stay up to date with important Playstation news and be first in line for pre-orders.</p>
+           <!-- User story 7 & 12 -->
+          <form id="form" action="static-page.html" method="post">
+             <!-- User story 8 & 9 & 10 -->
+            <label for="email" id="email-label">Email:</label>
+    <input type="email" id="email" name="email" required size="20" placeholder="Enter your Email address">
+             <!-- User story 11 -->
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+    </section>
+  <script src="script.js">
+  </script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>

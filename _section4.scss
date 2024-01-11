@@ -1,0 +1,38 @@
+#form {
+  margin-top: 2%;
+}
+
+#email {
+  width: 70%;
+  padding: 0.4375rem;
+}
+
+#section-4 {
+  height: 7.5rem;
+  margin-bottom: 7.5rem;
+}
+
+#desc2 {
+  color: var(--secondary-color);
+}
+
+label {
+  color: var(--secondary-color);
+}
+
+button[type="submit"] {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 0.3125rem;
+  width: 18.75rem;
+  height: 1.875rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 0.9375rem;
+  margin-top: 1.25rem;
+}
+
+button[type="submit"]:hover {
+  background-color: $btn-hover-background;
+}
